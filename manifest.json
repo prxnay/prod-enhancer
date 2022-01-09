@@ -1,0 +1,20 @@
+{
+
+    "name":"Productivity Enhancer",
+    "description": "This extention will help you reduce distracted unproductive websites while studying exclusively through notes",
+    "version": "0.1.1",
+    "manifest_version":3,
+
+    "content_scripts":[{
+        "matches":[
+            "https://www.linkedin.com/*",
+            "https://www.google.com/*",
+            "https://www.youtube.com/*",
+            "https://www.reddit.com/*",
+            "https://www.twitch.tv/*"
+        
+        ],
+        "css":["style.css"]
+    }
+    ]
+}

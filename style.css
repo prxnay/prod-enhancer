@@ -1,0 +1,7 @@
+img
+{
+    /* So everytime there is an img we want the content of the image to be JIM*/
+    content: url(https://pbs.twimg.com/media/EnyprGVVoAICGDp.jpg)
+}
+
+
